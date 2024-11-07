@@ -1,0 +1,69 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color:#121312;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m1{
+    margin: 5px;
+}
+
+.p1{
+    padding: 10px;
+}
+
+/* For WebKit browsers (such as Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark background color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #666; /* Dark thumb color */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox currently only supports scrollbar-color, not scrollbar-track-color */
+  /* You can use scrollbar-width to set the width of the scrollbar in Firefox */
+  /* Firefox also allows scrollbar-color to set both the thumb and the track color */
+  /* Uncomment the following lines if you want to style scrollbar in Firefox */
+  /*
+  html {
+    scrollbar-color: #666 #333;
+    scrollbar-width: thin;
+  }
+  */
+  
+  
+  
